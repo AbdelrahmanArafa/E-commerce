@@ -1,0 +1,53 @@
+body{
+    background-image: url("login.jpeg");
+    background-size: cover;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 620px;
+    background: rgb(204, 201, 201) ;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+div{
+    position: absolute;
+    text-align: center;
+    margin: 50px;
+}
+
+input[id="in1"],[id="in2"],[id="in3"],[id="in4"] {
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 2px solid;
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+}
+
+input[id="in1"]:focus{
+    border-bottom: 2px solid rgb(111, 111, 230);
+}
+input[id="in2"]:focus{
+    border-bottom: 2px solid rgb(111, 111, 230);
+}
+input[id="in3"]:focus{
+    border-bottom: 2px solid rgb(111, 111, 230);
+}
+input[id="in4"]:focus{
+    border-bottom: 2px solid rgb(111, 111, 230);
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    background-color: plum;
+    border: none;
+    border-radius: 10px;
+}
